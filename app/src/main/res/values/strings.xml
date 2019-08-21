@@ -1,0 +1,733 @@
+<resources>
+    <string name="send_email">Send Email</string>
+    <string name="no_email_client">There are no email clients installed.</string>
+    <string name="no_email">This user has no email business_address</string>
+    <string name="no_phone_number">This user has no phone number</string>
+    <string name="msg_request_time_out">Request timeout</string>
+    <string name="msg_network_not_available">Network is not available</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="login">Login</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="sign_up">Sign up</string>
+    <string name="email">Email</string>
+    <string name="food_and_beverages">Food and Beverages</string>
+    <string name="travel_hotel">Hotels &amp; Traveling</string>
+    <string name="email_address">E-mail address</string>
+    <string name="hint_email_address">E-mail address*</string>
+    <string name="phone_number">Phone number</string>
+    <string name="hint_phone_number">Phone number*</string>
+    <string name="password">Password</string>
+    <string name="password_require">Password*</string>
+    <string name="retype_password">Re-type password</string>
+    <string name="forget_password">Forgot password?</string>
+    <string name="no_account_yet">No account yet? Create one</string>
+    <string name="full_name">Full name</string>
+    <string name="hint_full_name">Full name*</string>
+    <string name="create_account">Create account</string>
+    <string name="already_a_member">Already a member? Login</string>
+
+    <!-- All deal -->
+    <string name="my_favorites">My favourites</string>
+    <string name="transport_deliveries">Transport &amp; Deliveries </string>
+    <string name="food_beverages">Foods &amp; Beverages</string>
+    <string name="labor">Labor (jobs)</string>
+    <string name="travel">Hotels &amp; Traveling</string>
+    <string name="shopping">Shopping, Beauty &amp; Health</string>
+    <string name="other_deals">Other nearby deals</string>
+    <string name="other_deal">Other nearby deal</string>
+    <string name="all_deals">All other deals</string>
+
+    <!--menu-->
+    <string name="search">Search</string>
+    <string name="find_taxi">Find Taxi</string>
+    <string name="deal_transport">Booking</string>
+    <string name="deal_delivery">Booking</string>
+    <string name="taxi_chat">Chat</string>
+    <string name="my_account">My Account</string>
+    <string name="pay_">Pay</string>
+    <string name="news_and_events">News &amp; Events</string>
+    <string name="taxi_biz">Taxi-biz</string>
+    <string name="share">Share</string>
+    <string name="help">Help</string>
+    <string name="settings">Settings</string>
+    <string name="about_us">About us</string>
+    <string name="me">Me</string>
+
+    <string name="log_out">Log out</string>
+    <string name="advance_search">Advance Search</string>
+    <string name="keyword">Keywords</string>
+    <string name="value_km">%1$s Km</string>
+    <string name="value_meter">%1$s m</string>
+    <string name="value_best_deals">Show %1$s best deals</string>
+    <string name="available_now">Available now</string>
+    <string name="remember_me">Remember me</string>
+    <string name="dollar_value">$%1$s</string>
+    <string name="negative_dollar_value">-$%1$s</string>
+    <string name="sort_by_rating">Sort by rating</string>
+    <string name="sort_by_distance">Sort by distance</string>
+
+    <string name="view_on_map">View on map</string>
+    <string name="sort_by_name">Sort by name</string>
+    <string name="sort_by_price">Sort by price</string>
+    <string name="i_am_available_for_driving">I\'m available for driving</string>
+    <string name="duration_buying">Duration buying</string>
+    <string name="my_trip">My trips</string>
+    <string name="trip_manager">Trip manager</string>
+    <string name="iwanadeal">iwanadeal</string>
+
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+    <string name="no_address_found">Sorry, no business_address found</string>
+    <string name="address_found">Address found</string>
+    <string name="service_not_available">No geocoder available</string>
+    <string name="msg_no_network">Network is not available</string>
+    <string name="msg_can_not_get_email">Failed to login. Can not get your email business_address</string>
+    <string name="msg_have_some_errors">Have some errors, please try again</string>
+
+    <!-- for deal -->
+    <array name="mydeal">
+        <item>Active</item>
+        <item>Inactive</item>
+        <item>Deals</item>
+        <item>New+</item>
+        <item>Accounting</item>
+        <item>Favorites</item>
+    </array>
+
+    <array name="mydeal_deals">
+        <item>Sold</item>
+        <item>Bought</item>
+        <item>Reviewed</item>
+        <item>No deals</item>
+    </array>
+
+    <array name="deal_detail">
+        <item>About</item>
+        <item>Reviews</item>
+    </array>
+
+    <string-array name="months">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string name="msg_remind_user_grants_permissions">Application can not work correctly if it\'s not enough permissions</string>
+    <string name="msg_remind_user_turn_on_location">Application can not work correctly if you don\'t turn on Google\'s location</string>
+    <string name="msg_remind_user_grant_location">Passengers will not find you if you don\'t grant location permission.\nPlease grant location or you will not be available for searching</string>
+    <string name="no_thank">No</string>
+    <string name="allow">Allow</string>
+    <string name="msg_name_is_required">Name is required</string>
+    <string name="msg_email_is_required">Email is not valid</string>
+    <string name="msg_phone_is_required">Phone number is required</string>
+    <string name="msg_password_is_required">Password includes at least 8 characters containing at least 1 number and no special characters</string>
+    <string name="msg_password_is_not_match">Password is not match</string>
+    <string name="from">From</string>
+    <string name="from_value">From: %1$s</string>
+    <string name="to">To</string>
+    <string name="to_value">To: %1$s</string>
+    <string name="approximate_price_value">Approximate price: $%1$s</string>
+    <string name="passengers_value">Passengers: %1$s</string>
+    <string name="turn_on">Turn on</string>
+    <string name="yes">Yes</string>
+    <string name="ok">OK</string>
+    <string name="all">All</string>
+    <string name="taxi">Taxi</string>
+    <string name="taxi_delivery">Taxi-Delivery</string>
+    <string name="vip">VIP</string>
+    <string name="vip_delivery">VIP-Delivery</string>
+    <string name="lifts">Lifts</string>
+    <string name="lift_delivery">Lifts-Delivery</string>
+    <string name="motorbike">Moto</string>
+    <string name="motor_delivery">Motor-Delivery</string>
+    <string name="delivery">Delivery</string>
+    <string name="more_info">More info</string>
+    <string name="tuktuk">Tuk Tuk</string>
+    <!--settings fragment-->
+    <string name="settings_notification">Allow Notifications</string>
+    <string name="settings_my_favourite">My favourite</string>
+    <string name="settings_transport_deliveries"><![CDATA[Transport & Deliveries]]></string>
+    <string name="settings_food_beverages"><![CDATA[Foods & Beverages]]></string>
+    <string name="settings_labor">Labor (jobs)</string>
+    <string name="settings_travelling">Travelling</string>
+    <string name="settings_shopping">Shopping</string>
+    <string name="settings_other_near_by_deal">Others nearby deals</string>
+    <!--iwana pay fragment-->
+    <string name="iwana_pay_buy_credit">Buy credits</string>
+    <string name="iwana_pay_redeem">Redeem</string>
+    <string name="iwana_pay_tranfers">Transfer</string>
+    <string name="iwana_pay_histories">History</string>
+
+    <string name="business_address">Address</string>
+    <string name="hint_business_address">Address*</string>
+    <!--header my account-->
+    <string name="edit_image">Edit</string>
+    <string name="title_my_account">Canning vate WA 6155, AU</string>
+    <string name="button_reviews">View Reviews</string>
+    <!--my account -->
+    <string name="general">General</string>
+    <string name="bussiness_name">Business name</string>
+    <string name="hint_bussiness_name">Business name*</string>
+    <string name="info_car">Car Information</string>
+    <string name="car_make">Car make</string>
+    <string name="hint_car_make">Car make*</string>
+    <string name="model">Model</string>
+    <string name="hint_model">Model*</string>
+    <string name="year">Year</string>
+    <string name="hint_year">Year*</string>
+    <string name="petrol">Petrol</string>
+    <string name="gaz">Gaz</string>
+    <string name="gaz_online">Gazonline</string>
+    <string name="yearly_insurance">Yearly insurance</string>
+    <string name="yearly_tax">Yearly tax</string>
+    <string name="permit">Permit</string>
+    <string name="pro">Pro</string>
+    <string name="msg_settings_notifications">Please enable notifications</string>
+    <string name="rate">Rate</string>
+    <string name="msg_choose_pickup">Please choose pickup</string>
+    <string name="msg_choose_destination">Please choose destination</string>
+    <string name="msg_choose_driver">Please click on a transport marker to choose your driver</string>
+    <string name="headphone">Headphone</string>
+    <string name="product">Product</string>
+    <string name="price">Price</string>
+    <string name="discount">Discount</string>
+    <string name="description">Description</string>
+    <string name="timming">Duration of deal (hours)</string>
+    <string name="days">Days</string>
+    <string name="hours">Hours</string>
+    <string name="type_deal">Deal Type</string>
+    <string name="standard">Standard</string>
+    <string name="premium">Premium</string>
+    <string name="total">Total</string>
+    <string name="submit">Submit</string>
+    <string name="create_new_taxi">Create New Taxi</string>
+    <string name="start_driver">Start driver</string>
+    <string name="view_reviews">Reviews</string>
+    <string name="distance">Distance</string>
+    <string name="eta">ETA</string>
+    <string name="estimateFare">Fare</string>
+    <string name="estimate_fare">Estimate fare</string>
+    <string name="track">Track</string>
+    <string name="finish">Finish</string>
+    <string name="trip_tracking">Trip tracking</string>
+    <string name="trip_finishing">Trip finishing</string>
+    <string name="button_save_and_submit"><![CDATA[Save & Submit]]></string>
+    <string name="msg_update_avatar">Please update your avatar!</string>
+    <!--fragment transfer, redeem,buy credits-->
+    <string name="button_redeem">Redeem</string>
+    <string name="button_transfer">Transfer</string>
+    <string name="input">Input</string>
+    <string name="hint_input">Input*</string>
+    <string name="msg_enought_credits">Your credits is not enough</string>
+    <!--fragment search-->
+    <string name="radius">Radius</string>
+    <!--activity become pro -->
+    <string name="amount_of_deals_to_show">Amount of deals to show</string>
+    <string name="title">Title</string>
+    <string name="original_price">Original Price(*)</string>
+    <string name="type_of_transport">Type of Transport</string>
+    <string name="fuel">Fuel</string>
+    <string name="amount_of_yearly_kilometres">Amount of yearly kilometres (kms)*</string>
+    <string name="num_years_use_car">Years you intend to use the car</string>
+    <string name="road_taxes_per_year"><![CDATA[Yearly car & road taxes*($)]]></string>
+    <string name="my_location">My location</string>
+    <string name="category">Category</string>
+    <string name="average_consumption_of_car">Fuel consumption (km/l)*</string>
+    <string name="price_per_liter">Price per liter of your fuel($/l)*</string>
+    <string name="cost_of_garage">Yearly parking costs (if any)($)</string>
+    <string name="insurance_costs">Yearly insurance costs*($)</string>
+    <string name="maintenance_costs">Yearly maintenance costs*($)</string>
+    <string name="price_new_tyres">Price of 4 new tyres($)</string>
+    <string name="value_of_car">Rest value of car after selling it($)</string>
+    <string name="unexpected_cost">Yearly unexpected costs($)</string>
+    <string name="value_your_car_bought">Price you paid for your car*($)</string>
+
+    <string name="general_infomations">General Information</string>
+    <string name="driver_information">Driver Information</string>
+    <string name="certification">Business license or equivalent</string>
+    <string name="button_finish">Finish</string>
+    <string name="msg_fill_bussiness_name">Please fill your business name</string>
+    <string name="msg_fill_email">Please fill your email</string>
+    <string name="msg_address_is_required">Please fill your address</string>
+    <string name="msg_car_make">Please fill your car make</string>
+    <string name="msg_model_is_required">Please fill your car of model</string>
+    <string name="msg_year_is_required">Please fill year</string>
+    <string name="msg_amount_kilometres_is_required">Please fill amount of yearly kilometres</string>
+    <string name="msg_num_year_use_car_is_required">Please fill number year you intend to use the car</string>
+    <string name="msg_road_taxes_yearly_car_required"><![CDATA[Please fill yearly car & road taxes]]></string>
+    <string name="msg_average_consumption_of_your_car_required">Please fill average consumption of your car</string>
+    <string name="msg_price_per_liter_is_required">Please fill price per liter or gallon of your fuel</string>
+    <string name="msg_cost_of_garage_is_required">Please fill yearly costs of your garage where you park the car</string>
+    <string name="msg_insurance_cost_is_required">Please fill yearly insurance costs</string>
+    <string name="msg_maintence_cost_is_required">Please fill yearly maintenance costs</string>
+    <string name="msg_price_new_tyres_is_required">Please fill price of 4 new tyres</string>
+    <string name="msg_value_car_sell_is_required">Please fill rest value of the car after you sell it</string>
+    <string name="msg_unexpected_cost_is_required">Please fill yearly unexpected costs</string>
+    <string name="msg_value_your_car_bought_is_required">Please fill value for which you bought the car</string>
+    <string name="msg_chose_car">Please upload your image car!</string>
+    <string name="msg_chose_certification">Please upload your image certification!</string>
+    <string name="button_become_pro">I am a Pro</string>
+    <string name="become_pro">Become A Pro</string>
+    <string name="become">Become</string>
+
+    <string name="msg_enable_edit">Please enable edit</string>
+    <array name="fuel">
+        <item>Gasoline</item>
+        <item>Diesel</item>
+        <item>Electric</item>
+        <item>Gas</item>
+        <item>Ethanol</item>
+        <item>Hybrid</item>
+    </array>
+    <string name="is_delivery">Available for delivery</string>
+    <string name="msg_accept_the_terms_conditions"><![CDATA[Please check I want to become pro and Accept the Terms & Conditions!]]></string>
+    <string name="i_want_to_become_pro"><![CDATA[I want to become Pro and Accept the ]]></string>
+    <string name="i_want_to_become_driver"><![CDATA[I want to become a driver]]></string>
+    <string name="i_m_a_driver">I am a driver</string>
+    <!--activity change password-->
+    <string name="change_pass">Change password</string>
+    <string name="button_change_pass">Change Password</string>
+    <string name="password_confirm">Confirm Password*</string>
+    <string name="msg_confirm_pass_is_required">Please confirm password</string>
+    <!---->
+    <string name="payment">Payment</string>
+    <string name="payment_method">Payment method</string>
+    <string name="credits">Credits</string>
+    <string name="cash">Cash</string>
+    <string name="paypal">Paypal</string>
+    <string name="skrill">Skrill</string>
+    <string name="stripe">Stripe</string>
+    <string name="other">Other</string>
+    <string name="accounting">Accounting</string>
+    <string name="pay">Pay</string>
+    <string name="you_have_to_pay_transaction_fee">You have to pay 1 credit for transaction fee.</string>
+    <string name="value_credits">%1$s credits</string>
+    <string name="trip_value">#Trip %1$s</string>
+    <string name="dollars">Dollars</string>
+    <string name="dollar_symbol">$</string>
+    <string name="comment">Comment</string>
+    <string name="msg_please_review_deal">Please leave your review for this deal</string>
+    <string name="status">Status</string>
+    <string name="finished">Finished</string>
+    <string name="not_paid">Not paid</string>
+    <string name="canceled">Canceled</string>
+    <string name="msg_no_data_found">Oops&#8230; No data found</string>
+    <string name="delete_all">Delete all</string>
+    <string name="delete">Delete</string>
+    <string name="msg_confirm_deleting_all">Do you want to delete all?</string>
+    <string name="msg_confirm_deleting_a_trip">Do you want to delete this trip?</string>
+    <string name="msg_have_no_trip_to_delete">You have no trip to delete</string>
+    <string name="msg_have_no_trip_to_share">You have no trip to share</string>
+    <string name="msg_choose_trip_to_share">Please choose a trip which you want to share</string>
+    <string name="msg_confirm_cancel_trip">Do you want to cancel this trip?</string>
+    <string name="msg_confirm_driver_is_unavailable">You will be not available for searching. Do you still want to exit?</string>
+
+    <string name="call">Phone Call</string>
+    <string name="voice_call">VoiP call</string>
+    <string name="add_to_contact">Add to contacts</string>
+    <string name="remove_from_contact">Remove from contacts</string>
+    <string name="added_to_your_contacts">Added to your contacts</string>
+    <string name="write_a_message">Write a message&#8230;</string>
+    <string name="currency_symbol">$</string>
+    <string name="button_save">Save</string>
+    <string name="value_minutes_away">%1$s\nminutes away</string>
+    <string name="revenue">Revenue</string>
+    <string name="expense">Expenses</string>
+    <string name="error">Error</string>
+    <string name="retry">Retry</string>
+    <string name="error_recreate_session">Login Chat error</string>
+    <string name="chat_load_users_error">Load chat users errors</string>
+    <string name="chat_unsupported_type">Unsupported dialog type</string>
+    <string name="subtitle_text_logged_in_as">Logged in as %s</string>
+    <string name="pref_displayhud_key">displayhud_preference</string>
+    <string name="pref_displayhud_title">Display call statistics.</string>
+    <string name="pref_displayhud_dlg">Display call statistics.</string>
+    <string name="pref_displayhud_default" translatable="false">false</string>
+    <string name="pref_audiocodec_key">pref_audio_codec</string>
+    <string name="pref_audiocodec_title">Default audio codec</string>
+    <string name="pref_audiocodec_def">ISAC</string>
+    <string name="pref_audiocodec_dlg">Select default audio codec</string>
+    <string name="pref_version">QuickBlox WebRTC\nBuild version 1.12</string>
+    <string name="btn_screen_capture">screenShot</string>
+    <string name="accepted">Accepted</string>
+    <string name="connection_was_lost">Connection was lost</string>
+    <string name="pref_disable_built_in_aec_key">disable_built_in_aec_preference</string>
+    <string name="pref_disable_built_in_aec_title">Disable built-in AEC</string>
+    <string name="pref_disable_built_in_aec_dlg">Disable built-in AEC</string>
+    <string name="pref_disable_built_in_aec_default">false</string>
+    <string name="pref_built_in_aec_not_available">Built-in AEC is not available</string>
+    <string name="pref_noaudioprocessing_key">audioprocessing_preference</string>
+    <string name="pref_noaudioprocessing_title">Disable audio processing</string>
+    <string name="pref_noaudioprocessing_dlg">Disable audio processing pipeline</string>
+    <string name="pref_noaudioprocessing_default">false</string>
+    <string name="pref_opensles_key">opensles_preference</string>
+    <string name="pref_opensles_title">Use OpenSL ES for audio playback</string>
+    <string name="pref_opensles_dlg">Use OpenSL ES for audio playback</string>
+    <string name="pref_opensles_default">false</string>
+    <string name="pref_hwcodec_key">hwcodec_preference</string>
+    <string name="pref_hwcodec_title">Video codec hardware acceleration</string>
+    <string name="pref_hwcodec_default">true</string>
+    <string name="pref_startbitratevalue_key">startbitratevalue_preference</string>
+    <string name="pref_startbitratevalue_title">Bandwidth (0&#8211;2000)</string>
+    <string name="pref_startbitratevalue_default">0</string>
+    <integer name="pref_startbitratevalue_min_value">0</integer>
+    <integer name="pref_startbitratevalue_max_value">2000</integer>
+    <integer name="pref_startbitratevalue_step_size">100</integer>
+    <string name="pref_answer_time_interval_key">answer_time_interval</string>
+    <string name="pref_answer_time_interval_title">Answer Time Interval (15&#8211;90s)</string>
+    <string name="pref_answer_time_interval_default_value">60</string>
+    <integer name="pref_answer_time_interval_min_value">15</integer>
+    <integer name="pref_answer_time_interval_max_value">90</integer>
+    <integer name="pref_answer_time_interval_step_size">5</integer>
+    <string name="pref_disconnect_time_interval_key">disconnect_time_interval</string>
+    <string name="pref_disconnect_time_interval_title">Disconnect Time Interval (10&#8211;90s)</string>
+    <string name="pref_disconnect_time_interval_default_value">10</string>
+    <integer name="pref_disconnect_time_interval_min_value">10</integer>
+    <integer name="pref_disconnect_time_interval_max_value">90</integer>
+    <integer name="pref_disconnect_time_interval_step_size">5</integer>
+    <string name="pref_dialing_time_interval_key">Dialing_time_interval</string>
+    <string name="pref_dialing_time_interval_title">Dialing Time Interval (3&#8211;10s)</string>
+    <string name="pref_dialing_time_interval_default_value">5</string>
+    <integer name="pref_dialing_time_interval_min_value">3</integer>
+    <integer name="pref_dialing_time_interval_max_value">10</integer>
+    <integer name="pref_dialing_time_interval_step_size">1</integer>
+    <string name="pref_frame_rate_key">frame_rate</string>
+    <string name="pref_frame_rate_title">Frame Rate (0&#8211;30)</string>
+    <string name="pref_frame_rate_default">0</string>
+    <integer name="pref_frame_rate_min_value">0</integer>
+    <integer name="pref_frame_rate_max_value">30</integer>
+    <integer name="pref_frame_rate_stepSize">5</integer>
+    <string name="pref_videocodec_key">videocodec_preference</string>
+    <string name="pref_videocodec_title">Default video codec</string>
+    <string name="pref_videocodec_dlg">Select default video codec</string>
+    <string name="pref_videocodec_default">0</string>
+    <string name="pref_resolution_key">resolution_preference</string>
+    <string name="text_push_notification_message">"%s is calling you"</string>
+    <string name="title_video_category">Video</string>
+    <string name="versionName">QuickBlox WebRTC\nBuild version 2.0.0</string>
+    <string name="pref_resolution_title">Video Format</string>
+    <string name="pref_resolution_dlg">Enter RTC local video resolution</string>
+    <string name="pref_resolution_default">-1</string>
+    <string name="title_call_settings_category">Call Settings</string>
+    <string name="also_on_call">Also on call:</string>
+    <string name="text_incoming_audio_call">Incoming Audio Call</string>
+    <string name="text_incoming_video_call">Incoming Video Call</string>
+    <string name="user_list_on_call">User 1, User 2, User 3, User 4, User 5, User 6</string>
+    <string name="ringing">Ringing</string>
+    <string name="dlg_signal_error">Disconnected… Please check your Internet connection!</string>
+    <string name="text_status_hang_up">Hung up</string>
+    <string name="permission_unavailable">%s is not available now!</string>
+    <string name="text_status_connect">Connect…</string>
+    <string name="text_status_checking">Checking…</string>
+    <string name="text_status_connected">Connected</string>
+    <string name="text_status_disconnected">Disconnected</string>
+    <string name="text_status_closed">Closed</string>
+    <string name="text_status_time_out">Time Out</string>
+    <string name="text_status_failed">Failed</string>
+    <string name="text_status_rejected">Rejected</string>
+    <string name="text_status_no_answer">No answer</string>
+    <string name="action_settings">Settings</string>
+    <string name="opponents">and %s other</string>
+    <string name="opponent">and %s </string>
+    <string name="opponent_pending">Pending</string>
+    <string name="opponent_closed">Closed</string>
+    <string name="field_name_user_name">User name</string>
+    <string name="field_name_chat_room_name">Chat room name</string>
+
+    <string name="error_name_must_not_contain_special_characters_from_app">%1$s must contain 3 &#8212; %2$s alphanumeric Latin characters without space, the first char must be a letter</string>
+
+    <string name="price_value">$ %1$s</string>
+    <string name="btn_iwana_ride">Iwana Ride</string>
+    <string name="car_photo">Car photo</string>
+    <string name="msg_update_success">Updated successfully!</string>
+    <string name="msg_activate_success">Activated successfully!</string>
+    <string name="msg_deactivate_success">Deactivated successfully!</string>
+
+    <!-- new deal -->
+    <string name="auto_renew">Auto-renew</string>
+    <string name="name">Full Name</string>
+    <string name="upgrade_pro_account">You need to upgrate to premium account</string>
+    <string name="title_required">Title is required</string>
+    <string name="price_required">Price is required</string>
+    <string name="address_is_required">Address is required</string>
+    <string name="deal_premium_description">Deal including notifications send to nearby users</string>
+    <string name="discount_required">Discount is required</string>
+    <string name="deal_standard_description">Deal without notification</string>
+    <string name="value_of_total">%1$s credits</string>
+
+
+    <string name="connection_error">Chat connection has been dropped</string>
+    <string name="reconnect_alert">Reconnecting in %s seconds</string>
+    <string name="public_group_chat_cannot_be_deleted">Public Group chat can be deleted only by owner</string>
+    <string name="current_password">Current Password*</string>
+    <string name="msg_fill_old_pass">Please fill your current password!</string>
+
+    <string name="msg_create_success">Create successfully!</string>
+    <string name="successfully">Successfully!</string>
+    <string name="dialogs_creation_error">Dialog creation errors</string>
+    <string name="creating_chat_dialog">Creating chat dialog&#8230;</string>
+    <string name="favorited">Favorited</string>
+    <string name="msg_wait_active_driver">Your account is currently waiting to be activated</string>
+    <string name="unfavorited">Unfavorited</string>
+    <string name="msg_success">Success!</string>
+    <string name="title_about">SuuSoft.com</string>
+    <string name="contact_us">Contact Us</string>
+
+    <!--fragment about-->
+    <string name="msg_no_email_client">There are no email clients installed.</string>
+    <string name="msg_no_email">This user has no an email address</string>
+    <string name="msg_no_phone_number">This user has no phone number</string>
+    <!--fragment FAQ-->
+    <string name="faq">FAQ\'s</string>
+    <string name="forgot_message_description">Please enter your email so \n we can send  you a link to reset your password</string>
+    <string name="msg_forget_password_success">Reset password successfully! We have sent an request to your email.</string>
+    <string name="attachment">Attachment</string>
+    <string name="select_file">Choose a file&#8230;</string>
+    <string name="file_is_max"><![CDATA[File is required < 1MB]]></string>
+    <string name="select_file_to_upload">Select a file to Upload</string>
+    <string name="pls_install_file_manager">Please install a File Manager</string>
+
+    <!--fragment buy credit-->
+    <string name="you_have_to_pay_01_dollar_transaction_fee">You have to pay %1$s credit for transaction fee.</string>
+    <string name="buy_credit_total">Total:</string>
+    <string name="button_buy">Buy</string>
+    <string name="amount_of_credits">Amount of credits</string>
+    <string name="msg_transaction_success">Transaction Success!</string>
+
+    <!--history-->
+    <string name="history">History</string>
+    <string name="msg_delete_history_success">Delete Success!</string>
+    <string name="msg_confirm_delete_history">Do you really want to delete all your history?</string>
+    <string name="no">No</string>
+    <string name="msg_delete_item_history_success">Do you really want to delete history?</string>
+    <!---->
+    <string name="msg_need_to_become_driver">You are not a driver, do you want to become one?</string>
+    <string name="msg_enter_duration_to_be_available">For how many hours you will be available?</string>
+    <string name="msg_enter_deal_duration_to_be_available">Your deal is out of activation time, you need to pay to activate it again.\nFor how many hours your deal will be available?</string>
+    <string name="msg_subtract_credits">You need to pay %1$s credits</string>
+    <string name="activate">Activate</string>
+    <string name="deactivate">Deactivate</string>
+    <string name="duration">Duration</string>
+    <string name="msg_duration_must_gt_zero">Duration must be between 1 and 24</string>
+    <string name="msg_balance_is_not_enough">Your account is not enough credits to be available for %1$s hours</string>
+    <string name="rating_success">Rating Success</string>
+    <string name="msg_amout_is_require">Credits is require!</string>
+    <string name="msg_value_credits"><![CDATA[Please enter credits >0]]></string>
+    <string name="msg_chose_method_payment">Please chose method payment!</string>
+    <string name="msg_description_is_require">Description is require!</string>
+
+    <string name="address_of_deal">Address of deal (*)</string>
+    <string name="description_of_deal">Description of deal</string>
+    <string name="duration_deal_description">Your deal must be available when active!</string>
+    <string name="msg_file_is_not_format">Only accept *.jpg, *.png file</string>
+    <string name="further_information">Further information</string>
+
+
+    <string name="msg_deal_create_success">Your deal ends at %1$s</string>
+
+    <string name="des_my_favourite">Preset your favorite deals</string>
+    <string name="des_transport">Find a nearby taxi, a VIP car, a Lift, a Mototaxi or get a delivery done</string>
+    <string name="des_foodandbever">Find a deal at a nearby café, bar or restaurant that is available now!</string>
+    <string name="des_other">Find out all the nearby deals iwanadeal can offer you</string>
+    <string name="msg_notify_opponent_agreed_deal">%1$s want you to drive me to the venue: %2$s</string>
+    <string name="msg_check_notify_opponent_agreed_deal">want you to drive me to the venue:</string>
+    <string name="msg_notify_opponent_agreed_deal_with_id">%1$s agree to drive you to the venue: %2$s - #%3$s </string>
+    <string name="msg_check_notify_opponent_agreed_deal_with_id">agree to drive you to the venue:</string>
+    <string name="msg_notify_opponent_disagreed_deal">%1$s disagrees the deal</string>
+    <string name="msg_confirm_pro_agrees_deal">Your client want you to drive me to the venue: %1$s. Do you agree?</string>
+    <string name="agree">Agree</string>
+    <string name="disagree">Disagree</string>
+
+    <string name="pay_deal">Pay Deal</string>
+    <string name="rate_deal">Rate Deal</string>
+    <string name="msg_no_history">Have no item history!</string>
+    <string name="transaction_note">Please tell us your redeem information, eg: Bank info, Paypal info, etc</string>
+    <string name="recent_chat">Recent chat</string>
+    <string name="msg_register_driver">Please register driver before!</string>
+    <string name="do_you_want_to_start_driving_or_delivering_now">Do you want to start driving/delivering now?</string>
+    <string name="once_you_click_the_confirm_button_your_deal_will_be_active_for_12_hours">Once you click the CONFIRM button your deal will be active for 12 hours</string>
+    <string name="confirm">Confirm</string>
+    <string name="you_are_not_driver">You are not a driver, Do you want to become one?</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="loading_data">Loading data&#8230;</string>
+    <string name="rating_is_required">Please rate for deal</string>
+    <string name="comment_is_required">Please comment for deal</string>
+    <string name="msg_not_enought_credits">You don\'t have enought credits. Do you want to buy credits?</string>
+    <string name="button_buy_credits">Buy Credits</string>
+    <string name="button_promotions">Promotions</string>
+    <string name="msg_promotion_is_developping">Under Development!</string>
+    <string name="terms_and_conditions"><![CDATA[ terms & conditions]]></string>
+    <string name="msg_balance_is_not_enough_to_pay">Your balance is not enough to pay. Please buy credits then pay again</string>
+    <!--Activity guide-->
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="done">Done</string>
+    <string name="description_find_taxi">Use the Find Taxi function to find the driver for you, select the location you want to go to, select the best driver and click the Deal Transport button. Then you will chat and deals with the driver.</string>
+    <string name="chat">Chat</string>
+    <string name="description_chat">At this screen, you can negotiate prices with the driver to get the best trip.</string>
+    <string name="description_pro">If you want to become a driver, register and become a driver in this system</string>
+    <string name="guide_for_you">Guide for you&#8230;</string>
+    <string name="msg_price_is_zero">Price should be greater than 0</string>
+    <string name="driver">Driver</string>
+    <string name="time">Time</string>
+    <string name="msg_year_is_invalid">Year is invalid!</string>
+    <string name="taxi_">Taxi</string>
+    <string name="manager_accounting">Manager Accounting</string>
+    <string name="msg_discount_need_smaller_price">Discount value can not more than or the same as price</string>
+    <string name="msg_register_success">Registered successfully! Please check your email to complete</string>
+    <string name="pick_image_intent_text">Select image</string>
+
+    <!-- message from backend -->
+    <string name="msg_err_success">Success</string>
+    <string name="msg_err_fail">Fail</string>
+    <string name="msg_err_missing_params">Missing params</string>
+    <string name="msg_err_invalid_input">Invalid input</string>
+    <string name="msg_err_token_missing">Token missing</string>
+    <string name="msg_err_token_mismatch">Token mismatch</string>
+    <string name="msg_err_can_not_perform">Can not perform</string>
+    <string name="msg_err_paid_fail">Paid fail</string>
+    <string name="msg_err_user_not_found">User not found</string>
+    <string name="msg_err_wrong_password">Wrong password</string>
+    <string name="msg_err_email_not_exist">Email does not exist</string>
+    <string name="msg_err_email_or_user_not_exist">Email or username does not exist</string>
+    <string name="msg_err_email_existed">Email existed</string>
+    <string name="msg_err_email_user_existed">Email or username existed</string>
+    <string name="msg_err_current_password_mismatch">Current password mismatch</string>
+    <string name="msg_err_your_account_not_actived">Your account is not activated</string>
+    <string name="msg_err_mail_fail">Fail to send email, please check your email address</string>
+    <string name="msg_err_your_balance_not_enough">Your account balance is not enough to do this action</string>
+    <string name="msg_err_update_bussiness_profile">Please update your business profile first</string>
+    <string name="msg_err_your_request_is_pending">Your another request is pending, please try again later</string>
+    <string name="msg_err_deal_not_found">Deal not found</string>
+    <string name="msg_err_reservation_not_found">Reservation not found</string>
+    <string name="msg_err_trip_not_found">Trip not found</string>
+    <string name="msg_err_driver_role_not_actived">Your driver role is not activated</string>
+    <string name="msg_err_update_profile_driver_first">Please update your driver profile first</string>
+    <string name="msg_err_need_charge_duration">You need to charge your online duration</string>
+
+    <string name="view_attachment">View attachment</string>
+    <string name="msg_fill_full_name">Please fill full name</string>
+
+    <string name="chose_category">Choose a category</string>
+    <string name="picture_your_self">Picture of yourself</string>
+    <string name="type_of_job">Type of Job(*)</string>
+    <string name="profession">Profession</string>
+    <string name="my_hourly_fee">My hourly fee</string>
+    <string name="newdeal_description_hint">Describe yourself and what you offer</string>
+    <string name="fee">Fee</string>
+    <string name="msg_confirm_deactivating_deal">This deal will be deactivated for temporary</string>
+    <string name="msg_confirm_deactivating_transport_deal">Passengers will not find you for temporary</string>
+    <string name="title_field">Title (*)</string>
+    <string name="original_price_field">Original price (*)</string>
+    <string name="title_chose_image">Chose Images From</string>
+    <string name="from_gallery">Gallery</string>
+    <string name="from_camera">Use Camera</string>
+    <string name="msg_no_network_to_update_location">Network is not available. Can not update your location</string>
+    <string name="msg_can_not_send_message_to_yourself">Can not send message to yourself</string>
+    <string name="msg_tell_user_about_chat_screen">You have an active \'%1$s\' deal, your potential clients will contact you here</string>
+    <string name="please_click_action_ormessagetobe_able_to_transport_deals">Please click action below or message to be able to transport deals</string>
+    <string name="transport">Transport</string>
+    <string name="category_field">Category (*)</string>
+    <string name="about">About</string>
+    <string name="msg_remind_user_grant_camera_permission">Application need to be granted accessing camera to take a photo</string>
+    <string name="fee_one_hour_online">Fee per one hour online(credits/hour)</string>
+    <string name="update">Update</string>
+    <string name="inactivate">Inactivate</string>
+    <string name="deal_completed">Deal completed</string>
+    <string name="you_can_not_change_hours">You can not update your hours online of deal and deal type!</string>
+    <string name="time_out">Time out!</string>
+    <string name="user_name">Email:</string>
+    <string name="create_pass">Create Password</string>
+    <string name="button_create_pass">Create Password</string>
+    <string name="renew_deal">Renew Deal</string>
+    <string name="msg_waiting_for_confirming">Waiting for confirmation</string>
+    <string name="msg_paid_successfully">Paid successfully</string>
+    <string name="cost_per_kilometer">Your estimated costs/km($)</string>
+    <string name="cost_you_charge_per_kilometer">Costs you charge per km($)</string>
+    <string name="car_color">Car color*</string>
+    <string name="hint_car_color">Car color</string>
+    <string name="hint_license_plate_number">License plate number</string>
+    <string name="license_plate_number">License plate number*</string>
+    <string name="msg_car_color">Car color is require</string>
+    <string name="msg_license_plate_number">License plate number is require</string>
+    <string name="msg_cost_you_charge_per_kilometer_is_required">Costs you charge per kilometer is require</string>
+    <string name="agreed_price">Agreed price</string>
+    <string name="other_price">Other price</string>
+    <string name="msg_ask_user_chooses_price">Please let us know your decision</string>
+    <string name="cancel_deal">Cancel deal</string>
+    <string name="track_deal">Track deal</string>
+    <string name="picked_up">Picked up</string>
+    <string name="driver_picked_up">%1$s picked up</string>
+    <string name="user_canceled_deal">%1$s canceled transport deal</string>
+    <string name="msg_chose_image_deal">Please chose deal image!</string>
+    <string name="msg_content_require">Content is required!</string>
+    <string name="use">Active</string>
+    <string name="your_estimate">Your estimated margin/km($)</string>
+    <string name="end_time">End Time:</string>
+    <string name="msg_expired">Deal Expired</string>
+    <string name="value_is_invalid">Value is invalid!</string>
+    <string name="msg_rating_require">Please choose your rate</string>
+    <string name="msg_deal_was_negotiated_already">The deal was negotiated already</string>
+    <string name="msg_deal_has_not_been_negotiated">The deal has not been negotiated</string>
+    <string name="msg_ask_driver_activate_again">Ready to be available for driving again?</string>
+    <string name="msg_ask_the_customer_named_Truong_has_canceled_trip_driver_activate_again">The customer: %1$s has canceled trip. Are you ready to drive again?</string>
+    <string name="msg_remind_driver_activate_again">Don\’t forget to activate your availability again, otherwise you will not be found.</string>
+    <string name="msg_remind_driver_finish_trip">Please finish or cancel the last trip before activating again</string>
+    <string name="note_transfer">Please tell us your transfer information, eg: Bank info, Paypal info, etc&#8230;</string>
+    <string name="search_results">Search results</string>
+    <string name="i_was_a_driver">I am a driver (add/edit my details)</string>
+    <string name="msg_paid_for_deal">%1$s just paid %2$s credit(s) for the deal</string>
+    <string name="msg_paid_for_deal_dollar">%1$s just paid $%2$s for the deal</string>
+    <string name="msg_remind_driver_online">You are not available for driving then you can not accept any trips</string>
+    <string name="msg_transfer_to_yourself">You can not transfer to yourself!</string>
+    <string name="deal">Deal</string>
+    <string name="no_deal">No deal</string>
+
+    <string name="dont_have_an_account_SIGN_UP_now">Don’t have an account? SIGN UP now.</string>
+    <string name="no_data">No data!</string>
+    <string name="no_connection">No connection!</string>
+    <string name="refresh">Refresh</string>
+
+
+    <string name="http_suusoft_com">http://suusoft.com</string>
+    <string name="sign_in">Sign in</string>
+    <string name="or">Or</string>
+
+
+    <string name="your_customer_has_canceled_the_deals">%1$s has canceled the deals!</string>
+    <string name="driver_has_canceled_the_deals">Driver has canceled the deals!</string>
+    <string name="close">Close</string>
+    <string name="view_deals">View deals</string>
+    <string name="your_name">Votre nom</string>
+    <string name="put_your_transaction_code">Mettez votre code de transaction</string>
+    <string name="msg_your_name_is_required">Votre nom est requis.</string>
+    <string name="msg_code_is_required">Le code est requis</string>
+    <string name="msg_payment_method_opening_soon">Mode de paiement disponible bientôt</string>
+    <string name="msg_your_request_will_be_sent_to_admin_for_approval">Votre demande sera envoyée à l\'administrateur pour approbation!</string>
+    <string name="msg_there_was_an_error_please_try_again">Une erreur est survenue, veuillez réessayer!</string>
+    <string name="you_are_booking_a_car_for">Vous réservez une voiture pour:</string>
+    <string name="choose_payment_method">Choisissez le mode de paiement</string>
+    <string name="send_request">Envoyer une demande</string>
+    <string name="you_are_online">You are online</string>
+    <string name="you_are_offline">You are offline</string>
+
+    <string name="availble">I am Available for Driving</string>
+    <string name="durationbuying">Duration Buying</string>
+    <string name="tripmanager">Trip Manager</string>
+    <string name="hourAvaiable">Hour Avaiable</string>
+
+    <string name="classic">Motor</string>
+    <string name="richshaw">Oto 4 chỗ</string>
+    <string name="suv">SUV</string>
+    <string name="khmer_tuk_tuk">Oto 7 chỗ</string>
+</resources>

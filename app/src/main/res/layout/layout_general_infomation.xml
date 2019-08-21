@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_2x">
+
+        <com.suusoft.locoindia.widgets.textview.TextViewBold
+            android:id="@+id/tv_general"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_2x"
+            android:text="@string/general_infomations"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_xnormal" />
+
+        <com.suusoft.locoindia.widgets.textview.TextViewRegular
+            android:id="@+id/btn_edit_infomation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="14dp"
+            android:layout_marginRight="14dp"
+            android:background="@drawable/bg_pressed_radius_grey"
+            android:drawableLeft="@drawable/ic_edit"
+            android:drawablePadding="@dimen/dimen_05x"
+            android:paddingBottom="@dimen/dimen_05x"
+            android:paddingLeft="@dimen/dimen_1x"
+            android:paddingRight="@dimen/dimen_1x"
+            android:paddingTop="@dimen/dimen_05x"
+            android:text="@string/edit_image"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_divider"
+        android:layout_marginLeft="@dimen/dimen_x3x"
+        android:layout_marginTop="@dimen/dimen_1x"
+        android:background="@color/grey" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_x3x"
+        android:layout_marginTop="@dimen/dimen_05x"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <com.suusoft.locoindia.widgets.textview.TextViewRegular
+            android:id="@+id/lbl_bussiness_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="@string/hint_full_name"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="@dimen/text_size_normal" />
+
+        <EditText
+            android:id="@+id/edt_bussiness_name"
+            style="@style/my_account_style_editext"
+            android:layout_toRightOf="@+id/lbl_bussiness_name"
+            android:hint="@string/full_name"
+            android:imeOptions="actionNext"
+            android:inputType="textCapWords"
+            android:nextFocusDown="@+id/lbl_email"
+            android:nextFocusForward="@+id/lbl_email"
+            android:nextFocusRight="@+id/lbl_email"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_parent_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <include layout="@layout/layout_pro_divider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_x3x"
+            android:layout_marginTop="@dimen/dimen_05x"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="1">
+
+            <com.suusoft.locoindia.widgets.textview.TextViewRegular
+                android:id="@+id/lbl_email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="@string/hint_email_address"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="@dimen/text_size_normal" />
+
+            <EditText
+                android:id="@+id/edt_email"
+                style="@style/my_account_style_editext"
+                android:layout_toRightOf="@+id/lbl_email"
+                android:enabled="true"
+                android:hint="@string/email_address"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:nextFocusDown="@+id/edt_address"
+                android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <include layout="@layout/layout_pro_divider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_x3x"
+        android:layout_marginTop="@dimen/dimen_05x"
+
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <com.suusoft.locoindia.widgets.textview.TextViewRegular
+            android:id="@+id/lbl_phone_number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:layout_gravity="center_vertical"
+            android:text="@string/hint_phone_number"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="@dimen/text_size_normal"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7">
+
+            <TextView
+                android:id="@+id/tv_phone_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@color/grey"
+                android:layout_toLeftOf="@+id/edt_phone_number"
+                android:layout_centerVertical="true"
+                android:drawableRight="@drawable/ic_arrow_drop_down_white"
+                android:gravity="center_vertical"
+                android:padding="@dimen/dimen_05x"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_normal" />
+
+            <EditText
+                android:maxWidth="@dimen/max_width"
+                android:id="@+id/edt_phone_number"
+                style="@style/my_account_style_editext"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:hint="@string/phone_number"
+                android:imeOptions="actionNext"
+                android:inputType="phone"
+                android:text="" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/layout_pro_divider" />
+
+    <LinearLayout
+        android:id="@+id/ll_parent_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_x3x"
+        android:layout_marginTop="@dimen/dimen_05x"
+        android:weightSum="1">
+
+        <com.suusoft.locoindia.widgets.textview.TextViewRegular
+            android:id="@+id/lbl_address"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="@string/hint_business_address"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="@dimen/text_size_normal" />
+
+        <EditText
+            android:layout_gravity="center_vertical"
+            android:id="@+id/edt_address"
+            style="@style/my_account_style_editext"
+            android:layout_toRightOf="@+id/lbl_address"
+            android:layout_weight="0.8"
+            android:hint="@string/business_address"
+            android:imeOptions="actionDone"
+            android:inputType="textMultiLine"
+            android:text="" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fr_divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_divider"
+        android:layout_marginBottom="@dimen/dimen_1x"
+        android:layout_marginLeft="@dimen/dimen_x3x"
+        android:layout_marginTop="@dimen/dimen_1x"
+        android:background="@color/grey"
+        android:visibility="visible" />
+</LinearLayout>

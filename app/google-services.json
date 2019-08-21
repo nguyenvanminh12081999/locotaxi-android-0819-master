@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "969984045442",
+    "firebase_url": "https://locotaxi-1.firebaseio.com",
+    "project_id": "locotaxi-1",
+    "storage_bucket": "locotaxi-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969984045442:android:afe76f02bb4ecf7d",
+        "android_client_info": {
+          "package_name": "com.locoindia.locotaxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969984045442-32c9sjni7rhpgdeea6s79kshm3gqiopv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSZ_9K9I0S1i57Ykw-UJpvVsDDa4yjlts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969984045442-32c9sjni7rhpgdeea6s79kshm3gqiopv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

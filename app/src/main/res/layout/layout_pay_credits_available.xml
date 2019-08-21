@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><!--start credits-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="@dimen/dimen_2x"
+    android:layout_marginRight="@dimen/dimen_2x"
+    android:layout_marginTop="@dimen/dimen_2x"
+    android:background="@color/grey"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_6x">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.suusoft.locoindia.widgets.textview.TextViewRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/available_now"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_size_large" />
+
+        <com.suusoft.locoindia.widgets.textview.TextViewRegular
+            android:id="@+id/tv_credits"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_buycredits" />
+
+        <com.suusoft.locoindia.widgets.textview.TextViewRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/credits"
+            android:textColor="@color/textColorSecondary"
+            android:textSize="@dimen/text_size_xxxlarge" />
+    </LinearLayout>
+
+</LinearLayout><!--end credits-->

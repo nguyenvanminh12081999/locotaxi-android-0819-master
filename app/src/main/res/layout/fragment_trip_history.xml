@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/sw_trip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/lbl_delete_all">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rcl_trip_history"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/dimen_1x" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <include layout="@layout/layout_no_data" />
+
+    <include layout="@layout/layout_no_connection" />
+
+    <com.suusoft.locoindia.widgets.textview.TextViewBold
+        android:id="@+id/lbl_delete_all"
+        android:visibility="gone"
+        android:drawablePadding="@dimen/dimen_2x"
+        android:drawableLeft="@drawable/ic_delete"
+        android:layout_marginBottom="@dimen/dimen_1x"
+        android:gravity="center_vertical"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_btn_delete_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="@dimen/dimen_1x"
+        android:paddingLeft="@dimen/dimen_2x"
+        android:paddingRight="@dimen/dimen_2x"
+        android:paddingBottom="@dimen/dimen_1x"
+        android:text="@string/delete_all" />
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/layout_header_my_account" />
+
+            <include layout="@layout/layout_general_infomation" />
+
+            <com.suusoft.locoindia.widgets.textview.TextViewRegular
+                android:id="@+id/tv_change_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_2x"
+                android:layout_marginLeft="@dimen/dimen_x3x"
+                android:paddingBottom="@dimen/dimen_x1x"
+                android:paddingTop="@dimen/dimen_x1x"
+                android:text=""
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_normal"
+                android:visibility="visible" />
+
+            <!--end general-->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_4x"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.suusoft.locoindia.widgets.textview.TextViewBold
+        android:id="@+id/btn_save"
+        android:drawableLeft="@drawable/ic_save_black"
+        android:drawablePadding="@dimen/dimen_1x"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dimen_2x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="@drawable/bg_btn_deals_transport"
+        android:paddingTop="@dimen/dimen_1x"
+        android:paddingLeft="@dimen/dimen_2x"
+        android:paddingRight="@dimen/dimen_2x"
+        android:paddingBottom="@dimen/dimen_1x"
+        android:textSize="@dimen/text_size_xnormal"
+        android:textColor="@color/textColorPrimary"
+        android:text="@string/button_save"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.suusoft.locoindia.widgets.textview.TextViewRegular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_4x"
+        android:layout_marginTop="@dimen/dimen_2x"
+        android:text="@string/description"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="@dimen/text_size_xnormal" />
+
+    <EditText
+        android:id="@+id/edt_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_4x"
+        android:layout_marginRight="@dimen/dimen_4x"
+        android:background="@color/transparent"
+        android:hint="@string/input"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:maxLength="500"
+        android:paddingBottom="@dimen/dimen_x1x"
+        android:paddingTop="@dimen/dimen_x1x"
+        android:text=""
+        android:textColor="@color/textColorSecondary"
+        android:textSize="@dimen/text_size_small" />
+    <!--start info-->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_4x">
+
+        <ImageView
+            android:id="@+id/img_info"
+            android:layout_width="@dimen/dimen_img_info"
+            android:layout_height="@dimen/dimen_img_info"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/dimen_1x"
+            android:src="@drawable/ic_info_primary" />
+
+        <com.suusoft.locoindia.widgets.textview.TextViewLightItalic
+            android:id="@+id/tv_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_05x"
+            android:layout_marginRight="@dimen/dimen_4x"
+            android:layout_marginTop="@dimen/dimen_1x"
+            android:layout_toRightOf="@+id/img_info"
+            android:drawablePadding="@dimen/dimen_1x"
+            android:gravity="center_vertical"
+            android:text="@string/transaction_note"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="@dimen/text_size_small" />
+    </RelativeLayout>
+    <!--end info-->
+
+</LinearLayout>

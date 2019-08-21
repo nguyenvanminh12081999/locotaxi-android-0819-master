@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--app's name-->
+    <string name="app_name">LocoTaxi</string>
+    <string name="URL_API">http://locotaxi.locokerala.com/</string>
+    <string name="URL_Company">https://locokerala.com</string>
+
+    <!--config Quickblox credentials-->
+    <string name="QB_ACCOUNT_KEY">Wx64VTaAg9xAxAmdnBy6</string>
+    <string name="QB_APP_ID">78197</string>
+    <string name="QB_AUTH_KEY">F5ThU4s7u5njRTF</string>
+    <string name="QB_AUTH_SECRET">jpnS4PhwPsdB8LG</string>
+    <string name="QB_DEFAULT_PASSWORD">a1s2d3f4g5h6</string> <!--password you set yourself-->
+
+    <!--<string name="QB_ACCOUNT_KEY">Wx64VTaAg9xAxAmdnBy6</string>-->
+    <!--<string name="QB_APP_ID">69513</string>-->
+    <!--<string name="QB_AUTH_KEY">Eey9NkGVuZUGhSP</string>-->
+    <!--<string name="QB_AUTH_SECRET">pXTAX29MR7U7aKE</string>-->
+    <!--<string name="QB_DEFAULT_PASSWORD">a1s2d3f4g5h6</string> &lt;!&ndash;password you set yourself&ndash;&gt;-->
+
+    <!--config facebook-->
+    <string name="facebook_app_id">904450453238266</string> <!--config by acc truongnv1292@gmail.com app Taxi Near-->
+    <string name="fb_login_protocol_scheme">fb945668122276890</string>
+
+    <!--config quickblox-->
+    <string name="sender_id">969984045442</string> <!--config SuuSoft.com Nguyen suusoft.truongnv@gmail.com app Taxi Near-->
+
+    <!--config map-->
+    <!--<string name="own_google_api_key">AIzaSyBgLLKC-8A0L4funcuiL7aEwXLrfdeTlQQ</string> &lt;!&ndash;&ndash;&gt;-->
+    <string name="own_google_api_key">AIzaSyDm7IemFoABqtNSvDrlOdU8nyVoSLF4d4w</string> <!---->
+
+    <!--AIzaSyC9vLpao9GqgDa9rJhRSF3vS3tA_8THCvE  key get API-->
+    <!--AIzaSyDm7IemFoABqtNSvDrlOdU8nyVoSLF4d4w  key get API-->
+    <!--<string name="URL_API">http://suusoft.com/product/iwanadeal/</string>-->
+    <!--<string name="URL_API">http://apptemplate.net/iwanadeal/</string>-->
+
+</resources>

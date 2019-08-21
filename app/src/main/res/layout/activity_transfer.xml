@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <include layout="@layout/layout_pay_credits_available" />
+
+            <include layout="@layout/layout_pay_amout_of_credits" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_4x"
+                android:layout_marginRight="@dimen/dimen_4x"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:weightSum="2"
+                    android:gravity="bottom"
+                    android:layout_height="wrap_content">
+
+                    <com.suusoft.locoindia.widgets.textview.TextViewRegular
+                        android:id="@+id/lbl_from_email"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_weight="0.3"
+                        android:text="@string/from"
+                        android:textColor="@color/textColorPrimary" />
+
+                    <EditText
+                        android:id="@+id/edt_from_email"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.7"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_toRightOf="@id/lbl_from_email"
+                        android:background="@color/transparent"
+                        android:editable="false"
+                        android:enabled="false"
+                        android:gravity="right"
+                        android:imeOptions="actionNext"
+                        android:inputType="textEmailAddress"
+                        android:maxLength="100"
+                        android:paddingRight="@dimen/dimen_1x"
+                        android:paddingTop="@dimen/dimen_3x"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/textColorSecondary"
+                        android:textSize="@dimen/text_size_xnormal" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_divider"
+                    android:background="@color/grey" />
+
+                <LinearLayout
+                    android:weightSum="2"
+                    android:gravity="bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.suusoft.locoindia.widgets.textview.TextViewRegular
+                        android:id="@+id/lbl_receive_email"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.3"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:text="@string/to"
+                        android:textColor="@color/textColorPrimary" />
+
+                    <EditText
+                        android:id="@+id/edt_receive_mail"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.7"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+
+                        android:layout_toRightOf="@id/lbl_receive_email"
+                        android:background="@color/transparent"
+                        android:gravity="right"
+                        android:imeOptions="actionNext"
+                        android:inputType="textEmailAddress"
+                        android:maxLength="100"
+                        android:paddingRight="@dimen/dimen_1x"
+                        android:paddingTop="@dimen/dimen_3x"
+                        android:singleLine="true"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/text_size_xnormal" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_divider"
+                    android:background="@color/grey" />
+            </LinearLayout>
+
+            <include layout="@layout/layout_pay_descriptions" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_8x"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.suusoft.locoindia.widgets.textview.TextViewBold
+        android:id="@+id/btn_functions"
+        android:drawableLeft="@drawable/ic_transfer"
+        android:drawablePadding="@dimen/dimen_1x"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dimen_1x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="@drawable/bg_btn_deals_transport"
+        android:paddingTop="@dimen/dimen_1x"
+        android:paddingLeft="@dimen/dimen_2x"
+        android:paddingRight="@dimen/dimen_2x"
+        android:paddingBottom="@dimen/dimen_1x"
+        android:textSize="@dimen/text_size_xnormal"
+        android:textColor="@color/textColorPrimary"
+        android:text="@string/button_redeem" />
+
+</RelativeLayout>

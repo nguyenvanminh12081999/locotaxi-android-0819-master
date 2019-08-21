@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:padding="@dimen/dimen_2px"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:id="@+id/btn_buy_credits"
+            android:layout_marginRight="1px"
+            android:background="@drawable/bg_pressed_pay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:tint="@color/white"
+                android:id="@+id/img_buy"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_buy_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.suusoft.locoindia.widgets.textview.TextViewRegular
+                android:layout_below="@+id/img_buy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/iwana_pay_buy_credit"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_xlarge" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:id="@+id/btn_functions"
+            android:layout_marginRight="1px"
+            android:background="@drawable/bg_pressed_pay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:tint="@color/white"
+                android:id="@+id/img_redeem"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_redeem_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.suusoft.locoindia.widgets.textview.TextViewRegular
+                android:layout_below="@+id/img_redeem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/iwana_pay_redeem"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_xlarge" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="@dimen/dimen_2px"
+        android:paddingRight="@dimen/dimen_2px"
+        android:paddingBottom="@dimen/dimen_2px"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:id="@+id/btn_transfer"
+            android:layout_marginRight="1px"
+            android:background="@drawable/bg_pressed_pay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:tint="@color/white"
+                android:id="@+id/img_transfer"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_transfer_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.suusoft.locoindia.widgets.textview.TextViewRegular
+                android:layout_below="@+id/img_transfer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/iwana_pay_tranfers"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_xlarge" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:id="@+id/btn_history"
+            android:layout_marginRight="1px"
+            android:background="@drawable/bg_pressed_pay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:tint="@color/white"
+                android:id="@+id/img_history"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_history_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.suusoft.locoindia.widgets.textview.TextViewRegular
+                android:layout_below="@+id/img_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/iwana_pay_histories"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_xlarge" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

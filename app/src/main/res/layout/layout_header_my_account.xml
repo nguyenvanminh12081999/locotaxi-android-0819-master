@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dimen_3x">
+
+    <com.suusoft.locoindia.widgets.textview.TextViewRegular
+        android:id="@+id/tv_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_1x"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_large"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/img_symbol_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/dimen_05x"
+            android:layout_marginTop="@dimen/dimen_x2x"
+            android:visibility="gone"
+            android:layout_toRightOf="@+id/rlt_parent"
+            android:src="@drawable/ic_member" />
+
+        <RelativeLayout
+            android:id="@+id/rlt_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_avatar"
+                app:civ_border_width="@dimen/dimen_2px"
+                app:civ_border_color="@color/colorPrimary"
+                android:layout_width="@dimen/dimen_avatar"
+                android:layout_height="@dimen/dimen_avatar"
+                android:scaleType="centerCrop"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/dimen_2x"/>
+
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/btn_edit_avatar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/img_avatar"
+                android:layout_alignRight="@+id/img_avatar"
+                android:layout_marginBottom="@dimen/dimen_1x"
+                android:layout_marginRight="@dimen/dimen_5x"
+                android:src="@drawable/img_edit_avatar" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dimen_2x"
+        android:gravity="center">
+
+        <RatingBar
+            android:id="@+id/rating_bar"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="0"
+            android:layout_centerVertical="true"
+            android:theme="@style/custom_rating" />
+
+        <com.suusoft.locoindia.widgets.textview.TextViewRegular
+            android:id="@+id/tv_num_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/rating_bar"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_05x"
+            android:layout_toEndOf="@+id/rating_bar"
+            android:layout_toRightOf="@+id/rating_bar"
+            android:text=""
+            android:textColor="@color/textColorPrimary" />
+    </RelativeLayout>
+
+    <com.suusoft.locoindia.widgets.textview.TextViewRegular
+        android:visibility="visible"
+        android:id="@+id/btn_view_reviews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dimen_2x"
+        android:background="@drawable/bg_pressed_radius_accent"
+        android:paddingBottom="@dimen/dimen_1x"
+        android:paddingLeft="@dimen/dimen_3x"
+        android:paddingRight="@dimen/dimen_3x"
+        android:paddingTop="@dimen/dimen_1x"
+        android:text="@string/button_reviews"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="@dimen/text_size_large" />
+
+    <View
+        android:layout_marginLeft="@dimen/dimen_2x"
+        android:layout_marginRight="@dimen/dimen_2x"
+        android:layout_marginTop="@dimen/dimen_2x"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_2px"/>
+</LinearLayout>

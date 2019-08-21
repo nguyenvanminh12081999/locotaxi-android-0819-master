@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.activities.TripTrackingActivity">
+
+    <include layout="@layout/toolbar_light"/>
+
+    <fragment
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.suusoft.locoindia.widgets.textview.TextViewRegular
+        android:id="@+id/lbl_completed"
+        android:drawableLeft="@drawable/ic_finish"
+        android:drawablePadding="@dimen/dimen_1x"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dimen_1x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="@drawable/bg_btn_deals_transport"
+        android:paddingTop="@dimen/dimen_1x"
+        android:paddingLeft="@dimen/dimen_2x"
+        android:paddingRight="@dimen/dimen_2x"
+        android:paddingBottom="@dimen/dimen_1x"
+        android:textSize="@dimen/text_size_xnormal"
+        android:textColor="@color/textColorPrimary"
+        android:text="@string/deal_completed"
+        android:textAllCaps="false" />
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/screen_about_driver"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_gravity="center_vertical"
+    android:background="@color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:visibility="gone"
+        app:civ_border_width="@dimen/dimen_2px"
+        app:civ_border_color="@color/colorPrimary"
+        android:id="@+id/img_car"
+        android:layout_margin="@dimen/dimen_1x"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/dimen_image_contact"
+        android:layout_height="@dimen/dimen_image_contact"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop" />
+
+
+
+    <RelativeLayout
+        android:id="@+id/ll_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.8"
+        android:padding="@dimen/dimen_05x">
+
+       <include layout="@layout/layout_about_name"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingRight="@dimen/dimen_x1x"
+        android:layout_gravity="center_vertical"
+        android:layout_toRightOf="@+id/ll_title"
+        android:layout_weight="1"
+        android:gravity="right">
+
+        <include layout="@layout/layout_about_price"/>
+
+    </RelativeLayout>
+</LinearLayout>

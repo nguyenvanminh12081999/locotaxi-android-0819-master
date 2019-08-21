@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/lbl_completed" />
+
+    <com.suusoft.locoindia.widgets.textview.TextViewRegular
+        android:id="@+id/lbl_completed"
+        style="@style/Button.Accent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="@dimen/dimen_2x"
+        android:paddingTop="@dimen/dimen_2x"
+        android:text="@string/deal_completed"
+        android:textAllCaps="false"
+        android:visibility="gone" />
+</RelativeLayout>
